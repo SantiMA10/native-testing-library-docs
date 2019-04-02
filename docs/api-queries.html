@@ -1,0 +1,315 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Queries · React Native Testing Library</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;h2&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;variants&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#variants&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Variants&lt;/h2&gt;
+"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Queries · React Native Testing Library"/><meta property="og:type" content="website"/><meta property="og:url" content="https://bcarroll22.github.io/native-testing-library-docs/"/><meta property="og:description" content="&lt;h2&gt;&lt;a class=&quot;anchor&quot; aria-hidden=&quot;true&quot; id=&quot;variants&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#variants&quot; aria-hidden=&quot;true&quot; class=&quot;hash-link&quot;&gt;&lt;svg class=&quot;hash-link-icon&quot; aria-hidden=&quot;true&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Variants&lt;/h2&gt;
+"/><meta property="og:image" content="https://bcarroll22.github.io/native-testing-library-docs/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://bcarroll22.github.io/native-testing-library-docs/img/docusaurus.png"/><link rel="shortcut icon" href="/native-testing-library-docs/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500,700|Source+Code+Pro:500,700|Source+Sans+Pro:400,400i,700"/><link rel="stylesheet" href="/native-testing-library-docs/css/code-block-buttons.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/native-testing-library-docs/js/code-block-buttons.js"></script><link rel="stylesheet" href="/native-testing-library-docs/css/main.css"/><script src="/native-testing-library-docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/native-testing-library-docs/"><img class="logo" src="/native-testing-library-docs/img/docusaurus.svg" alt="React Native Testing Library"/><h2 class="headerTitleWithLogo">React Native Testing Library</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/native-testing-library-docs/docs/intro" target="_self">Docs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>API</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/intro">Intro</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/install">Install</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/example">Example</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/setup">Setup</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/guiding-principles">Guiding Principles</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">API</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/native-testing-library-docs/docs/api-queries">Queries</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/api-events">Firing Events</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/api-async">Async</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/api-helpers">Helpers</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/api-render">Render</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/api-render-hook">Render Hook</a></li><li class="navListItem"><a class="navItem" href="/native-testing-library-docs/docs/api-act">Act</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle">Queries</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="variants"></a><a href="#variants" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Variants</h2>
+<blockquote>
+<p><code>getBy</code> queries are shown by default in the <a href="#queries">query documentation</a> below.</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="getby"></a><a href="#getby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>getBy</h3>
+<p><code>getBy*</code> queries returns the first matching node for a query, and throws an error if no elements
+match.</p>
+<h3><a class="anchor" aria-hidden="true" id="getallby"></a><a href="#getallby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>getAllBy</h3>
+<p><code>getAllBy*</code> queries return an array of all matching nodes for a query, and throws an error if no
+elements match.</p>
+<h3><a class="anchor" aria-hidden="true" id="queryby"></a><a href="#queryby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>queryBy</h3>
+<p><code>queryBy*</code> queries returns the first matching node for a query, and return <code>null</code> if no elements
+match. This is useful for asserting an element is not present.</p>
+<h3><a class="anchor" aria-hidden="true" id="queryallby"></a><a href="#queryallby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>queryAllBy</h3>
+<p><code>queryAllBy*</code> queries return an array of all matching nodes for a query, and return an empty array
+(<code>[]</code>) if no elements match.</p>
+<h3><a class="anchor" aria-hidden="true" id="findby"></a><a href="#findby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>findBy</h3>
+<p><code>findBy*</code> queries return a promise which resolves when an element is found which matches the given
+query. The promise is rejected if no element is found after a default timeout of <code>4500</code>ms.</p>
+<blockquote>
+<p>Note, this is a simple combination of <code>getBy*</code> queries and
+<a href="/docs/api-async#waitforelement"><code>waitForElement</code></a>. The <code>findBy*</code> queries accept the
+<code>waitForElement</code> options as the last argument. (i.e.
+<code>findByText(container, 'text', queryOptions, waitForElementOptions)</code>)</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="findallby"></a><a href="#findallby" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>findAllBy</h3>
+<p><code>findAllBy*</code> queries return a promise which resolves to an array of elements when any elements are
+found which match the given query. The promise is rejected if no elements are found after a default
+timeout of <code>4500</code>ms.</p>
+<h2><a class="anchor" aria-hidden="true" id="options"></a><a href="#options" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Options</h2>
+<p>The argument to a query can be a <em>string</em>, <em>regular expression</em>, or <em>function</em>. There are also
+options to adjust how node text is parsed.</p>
+<p>See <a href="#textmatch">TextMatch</a> for documentation on what can be passed to a query.</p>
+<h2><a class="anchor" aria-hidden="true" id="queries"></a><a href="#queries" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Queries</h2>
+<h3><a class="anchor" aria-hidden="true" id="bya11ylabel"></a><a href="#bya11ylabel" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>ByA11yLabel</code></h3>
+<blockquote>
+<p>getByA11yLabel, queryByLabelText, getAllByLabelText, queryAllByLabelText findByLabelText,
+findAllByLabelText</p>
+</blockquote>
+<pre><code class="hljs css language-typescript">getByA11yLabel(
+  container: ReactTestInstance,
+  text: TextMatch,
+  options?: {
+    selector?: <span class="hljs-built_in">string</span> = <span class="hljs-string">'*'</span>,
+    exact?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    normalizer?: NormalizerFn,
+  }): FiberRoot
+</code></pre>
+<p>This will search for all elements with an <code>accessibilityLabel</code> attribute and find one that matches the given
+<a href="#textmatch"><code>TextMatch</code></a>.</p>
+<pre><code class="hljs css language-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Login</span>(<span class="hljs-params">{ onPress }</span>) </span>{
+  <span class="hljs-keyword">return</span> (
+    &lt;View accessibilityLabel="login-form"&gt;
+      &lt;Text&gt;Login&lt;/Text&gt;
+      &lt;TextInput accessibilityLabel="username" /&gt;
+      &lt;TextInput accessibilityLabel="password" /&gt;
+      &lt;Button title="Login" onPress={onPress} /&gt;
+    &lt;/View&gt;
+  );
+}
+
+import { render } from 'native-testing-library';
+
+const { getByA11yLabel } = render(&lt;Login onPress={jest.fn()} /&gt;);
+
+getByA11yLabel('username'); // returns the TextInput node
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="byplaceholder"></a><a href="#byplaceholder" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>ByPlaceholder</code></h3>
+<blockquote>
+<p>getByPlaceholder, queryByPlaceholder, getAllByPlaceholder, queryAllByPlaceholder,
+findByPlaceholder, findAllByPlaceholder</p>
+</blockquote>
+<pre><code class="hljs css language-typescript">getByPlaceholder(
+  container: ReactTestInstance,
+  text: TextMatch,
+  options?: {
+    exact?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    trim?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    collapseWhitespace?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    filter?: FilterFn,
+    normalizer?: NormalizerFn,
+  }): FiberRoot
+</code></pre>
+<p>This will search for all elements with a <code>placeholder</code> attribute and find one that matches the given
+<a href="#textmatch"><code>TextMatch</code></a>.</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">import</span> { render } <span class="hljs-keyword">from</span> <span class="hljs-string">'native-testing-library'</span>;
+
+<span class="hljs-keyword">const</span> { getByPlaceholder } = render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">TextInput</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Username"</span> /&gt;</span>);
+
+getByPlaceholder('Username'); // returns the TextInput node
+</span></code></pre>
+<h3><a class="anchor" aria-hidden="true" id="bytext"></a><a href="#bytext" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>ByText</code></h3>
+<blockquote>
+<p>getByText, queryByText, getAllByText, queryAllByText, findByText, findAllByText</p>
+</blockquote>
+<pre><code class="hljs css language-typescript">getByText(
+  container: ReactTestInstance,
+  text: TextMatch,
+  options?: {
+    types?: array = [<span class="hljs-string">'Text'</span>, <span class="hljs-string">'TextInput'</span>],
+    trim?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    collapseWhitespace?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    exact?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    normalizer?: NormalizerFn,
+  }): FiberRoot
+</code></pre>
+<p>This will search for all elements of type <code>Text</code> with <code>props.children</code> matching the given. It will
+also search <code>TextInput</code>s by their value <a href="#textmatch"><code>TextMatch</code></a>.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> { render } <span class="hljs-keyword">from</span> <span class="hljs-string">'native-testing-library'</span>;
+
+<span class="hljs-keyword">const</span> { getByText } = render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>About ℹ<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>);
+
+getByText(<span class="hljs-regexp">/about/i</span>); <span class="hljs-comment">// returns the Text node</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="bya11yrole"></a><a href="#bya11yrole" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>ByA11yRole</code></h3>
+<blockquote>
+<p>getByA11yRole, queryByA11yRole, getAllByA11yRole, queryAllByA11yRole, findByA11yRole,
+findAllByA11yRole</p>
+</blockquote>
+<pre><code class="hljs css language-typescript">getByA11yRole(
+  container: ReactTestInstance,
+  text: TextMatch,
+  options?: {
+    exact?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    trim?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    collapseWhitespace?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    filter?: FilterFn,
+    normalizer?: NormalizerFn,
+  }): FiberRoot
+</code></pre>
+<p>This will search for all elements with an <code>accessibilityRole</code> attribute and find one that matches the given
+<a href="#textmatch"><code>TextMatch</code></a>.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> { render } <span class="hljs-keyword">from</span> <span class="hljs-string">'react-testing-library'</span>;
+
+<span class="hljs-keyword">const</span> { getByA11yRole } = render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">accessibilityRole</span>=<span class="hljs-string">"summary"</span> /&gt;</span>);
+
+getByA11yRole('summary'); // returns the View node
+</span></code></pre>
+<h3><a class="anchor" aria-hidden="true" id="byvalue"></a><a href="#byvalue" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>ByValue</code></h3>
+<blockquote>
+<p>getByValue, queryByValue, getAllByValue, queryAllByValue, findByValue, findAllByValue</p>
+</blockquote>
+<pre><code class="hljs css language-typescript">getByText(
+  container: ReactTestInstance,
+  text: TextMatch,
+  options?: {
+    exact?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    trim?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    collapseWhitespace?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    filter?: FilterFn,
+    normalizer?: NormalizerFn,
+  }): FiberRoot
+</code></pre>
+<p>This will search for all elements with a <code>value</code> attribute and find one that matches the given
+<a href="#textmatch"><code>TextMatch</code></a>.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> { render } <span class="hljs-keyword">from</span> <span class="hljs-string">'native-testing-library'</span>;
+
+<span class="hljs-keyword">const</span> { getByText } = render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>About ℹ<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>);
+
+getByText(<span class="hljs-regexp">/about/i</span>); <span class="hljs-comment">// returns the Text node</span>
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="bytestid"></a><a href="#bytestid" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>ByTestId</code></h3>
+<blockquote>
+<p>getByTestId, queryByTestId, getAllByTestId, queryAllByTestId, findByTestId, findAllByTestId</p>
+</blockquote>
+<pre><code class="hljs css language-typescript">getByTestId(
+  container: ReactTestInstance,
+  text: TextMatch,
+  options?: {
+    trim?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    collapseWhitespace?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    exact?: <span class="hljs-built_in">boolean</span> = <span class="hljs-literal">true</span>,
+    filter?: FilterFn,
+    normalizer?: NormalizerFn,
+  }): FiberRoot
+</code></pre>
+<p>This will search for all elements with a <code>testID</code> and find one that matches the given
+<a href="#textmatch"><code>TextMatch</code></a>.</p>
+<pre><code class="hljs css language-js"><span class="hljs-keyword">import</span> { render } <span class="hljs-keyword">from</span> <span class="hljs-string">'native-testing-library'</span>;
+
+<span class="hljs-keyword">const</span> { getByTestId } = render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">testID</span>=<span class="hljs-string">"test"</span>&gt;</span>hi there<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>);
+
+getByTestId(<span class="hljs-string">'test'</span>); <span class="hljs-comment">// returns the Text node</span>
+</code></pre>
+<blockquote>
+<p>Because your users can't see testIDs <a href="#guiding-principles">the guiding principles</a>, please only
+use this as a last resort. Users don't interact with testIDs, and can lead to unpredictable
+behavior. For example, internal React Native components sometimes spread testIds down to child
+components. This means that if you query all by testId, you may get significantly more results
+than you anticipate which will lead to unpredictable tests.</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="textmatch"></a><a href="#textmatch" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><code>TextMatch</code></h2>
+<p>Several APIs accept a <code>TextMatch</code> which can be a <code>string</code>, <code>regex</code> or a <code>function</code> which returns
+<code>true</code> for a match and <code>false</code> for a mismatch.</p>
+<h3><a class="anchor" aria-hidden="true" id="precision"></a><a href="#precision" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Precision</h3>
+<p>Some APIs accept an object as the final argument that can contain options that affect the precision
+of string matching:</p>
+<ul>
+<li><code>exact</code>: Defaults to <code>true</code>; matches full strings, case-sensitive. When false, matches substrings
+and is not case-sensitive.
+<ul>
+<li><code>exact</code> has no effect on <code>regex</code> or <code>function</code> arguments.</li>
+<li>In most cases using a regex instead of a string gives you more control over fuzzy matching and
+should be preferred over <code>{ exact: false }</code>.</li>
+</ul></li>
+<li><code>normalizer</code>: An optional function which overrides normalization behavior. See
+<a href="#normalization"><code>Normalization</code></a>.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="normalization"></a><a href="#normalization" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Normalization</h3>
+<p>Before running any matching logic against text, <code>native-testing-library</code> automatically normalizes
+that text. By default, normalization consists of trimming whitespace from the start and end of text,
+and collapsing multiple adjacent whitespace characters into a single space.</p>
+<p>If you want to prevent that normalization, or provide alternative normalization (e.g. to remove
+Unicode control characters), you can provide a <code>normalizer</code> function in the options object. This
+function will be given a string and is expected to return a normalized version of that string.</p>
+<p>Note: Specifying a value for <code>normalizer</code> <em>replaces</em> the built-in normalization, but you can call
+<code>getDefaultNormalizer</code> to obtain a built-in normalizer, either to adjust that normalization or to
+call it from your own normalizer.</p>
+<p><code>getDefaultNormalizer</code> takes an options object which allows the selection of behaviour:</p>
+<ul>
+<li><code>trim</code>: Defaults to <code>true</code>. Trims leading and trailing whitespace</li>
+<li><code>collapseWhitespace</code>: Defaults to <code>true</code>. Collapses inner whitespace (newlines, tabs, repeated
+spaces) into a single space.</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="normalization-examples"></a><a href="#normalization-examples" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Normalization Examples</h4>
+<p>To perform a match against text without trimming:</p>
+<pre><code class="hljs css language-javascript">getByText(node, <span class="hljs-string">'text'</span>, {
+  <span class="hljs-attr">normalizer</span>: getDefaultNormalizer({ <span class="hljs-attr">trim</span>: <span class="hljs-literal">false</span> }),
+});
+</code></pre>
+<p>To override normalization to remove some Unicode characters whilst keeping some (but not all) of the
+built-in normalization behavior:</p>
+<pre><code class="hljs css language-javascript">getByText(node, <span class="hljs-string">'text'</span>, {
+  <span class="hljs-attr">normalizer</span>: <span class="hljs-function"><span class="hljs-params">str</span> =&gt;</span> getDefaultNormalizer({ <span class="hljs-attr">trim</span>: <span class="hljs-literal">false</span> })(str).replace(<span class="hljs-regexp">/[\u200E-\u200F]*/g</span>, <span class="hljs-string">''</span>),
+});
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="textmatch-examples"></a><a href="#textmatch-examples" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TextMatch Examples</h3>
+<p>Given the following render:</p>
+<pre><code class="hljs css language-javascript"><span class="hljs-keyword">const</span> {  rootInstance } = render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Hello World<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>);
+</code></pre>
+<p><strong><em>Will</em> find a match:</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// Matching a string:</span>
+getByText( rootInstance, <span class="hljs-string">'Hello World'</span>); <span class="hljs-comment">// full string match</span>
+getByText( rootInstance, <span class="hljs-string">'llo Worl'</span>, { <span class="hljs-attr">exact</span>: <span class="hljs-literal">false</span> }); <span class="hljs-comment">// substring match</span>
+getByText( rootInstance, <span class="hljs-string">'hello world'</span>, { <span class="hljs-attr">exact</span>: <span class="hljs-literal">false</span> }); <span class="hljs-comment">// ignore case</span>
+
+<span class="hljs-comment">// Matching a regex:</span>
+getByText( rootInstance, /World/); <span class="hljs-comment">// substring match</span>
+getByText( rootInstance, /world/i); <span class="hljs-comment">// substring match, ignore case</span>
+getByText( rootInstance, /^hello world$/i); <span class="hljs-comment">// full string match, ignore case</span>
+getByText( rootInstance, /Hello W?oRlD/i); <span class="hljs-comment">// advanced regex</span>
+
+<span class="hljs-comment">// Matching with a custom function:</span>
+getByText( rootInstance, content =&gt; content.startsWith(<span class="hljs-string">'Hello'</span>));
+</code></pre>
+<p><strong><em>Will not</em> find a match:</strong></p>
+<pre><code class="hljs css language-javascript"><span class="hljs-comment">// full string does not match</span>
+getByText(testElement, <span class="hljs-string">'Goodbye World'</span>);
+
+<span class="hljs-comment">// case-sensitive regex with different case</span>
+getByText(testElement, /hello world/);
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/native-testing-library-docs/docs/guiding-principles"><span class="arrow-prev">← </span><span>Guiding Principles</span></a><a class="docs-next button" href="/native-testing-library-docs/docs/api-events"><span>Firing Events</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#variants">Variants</a><ul class="toc-headings"><li><a href="#getby">getBy</a></li><li><a href="#getallby">getAllBy</a></li><li><a href="#queryby">queryBy</a></li><li><a href="#queryallby">queryAllBy</a></li><li><a href="#findby">findBy</a></li><li><a href="#findallby">findAllBy</a></li></ul></li><li><a href="#options">Options</a></li><li><a href="#queries">Queries</a><ul class="toc-headings"><li><a href="#bya11ylabel"><code>ByA11yLabel</code></a></li><li><a href="#byplaceholder"><code>ByPlaceholder</code></a></li><li><a href="#bytext"><code>ByText</code></a></li><li><a href="#bya11yrole"><code>ByA11yRole</code></a></li><li><a href="#byvalue"><code>ByValue</code></a></li><li><a href="#bytestid"><code>ByTestId</code></a></li></ul></li><li><a href="#textmatch"><code>TextMatch</code></a><ul class="toc-headings"><li><a href="#precision">Precision</a></li><li><a href="#normalization">Normalization</a></li><li><a href="#textmatch-examples">TextMatch Examples</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><div><h5>Docs</h5><a href="/native-testing-library-docs/docs/en/intro">Getting Started</a><a href="/native-testing-library-docs/docs/en/install">Install</a><a href="/native-testing-library-docs/docs/en/example">Example</a><a href="/native-testing-library-docs/docs/en/api-queries">API</a></div><div><h5>Community</h5><a href="http://stackoverflow.com/questions/tagged/native-testing-library" target="_blank" rel="noreferrer noopener">Stack Overflow</a><a href="https://reactiflux.com/">Reactiflux on Discord</a><a href="https://twitter.com/bcarroll22" target="_blank" rel="noreferrer noopener">Follow on Twitter</a></div><div><h5>More</h5><a class="github-button" href="https://github.com/bcarroll22/native-testing-library" data-icon="octicon-star" data-count-href="/facebook/docusaurus/stargazers" data-show-count="true" data-count-aria-label="# stargazers on GitHub" aria-label="Star this project on GitHub">Star</a><a href="https://github.com/bcarroll22/native-testing-library">GitHub</a><a href="https://github.com/bcarroll22/native-testing-library-docs">Edit the docs</a></div></section><section class="copyright">Copyright © 2019 Brandon Carroll</section></footer></div></body></html>
